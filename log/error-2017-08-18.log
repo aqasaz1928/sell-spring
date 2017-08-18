@@ -1,0 +1,26 @@
+2017-08-18 18:36:48,013 - Starting LoggerTest on DESKTOP-PU1H1F5 with PID 2572 (started by 李金香 in D:\java\sell)
+2017-08-18 18:36:48,027 - No active profile set, falling back to default profiles: default
+2017-08-18 18:36:48,096 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:36:48 CST 2017]; root of context hierarchy
+2017-08-18 18:36:49,098 - HV000001: Hibernate Validator 5.3.5.Final
+2017-08-18 18:36:51,312 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:36:48 CST 2017]; root of context hierarchy
+2017-08-18 18:36:51,417 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 18:36:51,422 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 18:36:51,461 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:36:51,462 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:36:51,514 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:36:51,810 - Started LoggerTest in 4.42 seconds (JVM running for 5.416)
+2017-08-18 18:36:51,867 - error... name jike, password: 12445
+2017-08-18 18:36:51,874 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:36:48 CST 2017]; root of context hierarchy
+2017-08-18 18:39:25,539 - Starting LoggerTest on DESKTOP-PU1H1F5 with PID 6220 (started by 李金香 in D:\java\sell)
+2017-08-18 18:39:25,555 - No active profile set, falling back to default profiles: default
+2017-08-18 18:39:25,646 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:39:25 CST 2017]; root of context hierarchy
+2017-08-18 18:39:26,292 - HV000001: Hibernate Validator 5.3.5.Final
+2017-08-18 18:39:28,387 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:39:25 CST 2017]; root of context hierarchy
+2017-08-18 18:39:28,512 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 18:39:28,514 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 18:39:28,561 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:39:28,563 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:39:28,642 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 18:39:28,875 - Started LoggerTest in 3.997 seconds (JVM running for 5.089)
+2017-08-18 18:39:28,942 - error... name jike, password: 12445
+2017-08-18 18:39:28,952 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7bd4937b: startup date [Fri Aug 18 18:39:25 CST 2017]; root of context hierarchy
