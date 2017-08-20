@@ -8,6 +8,11 @@
         </layout>
     </appender>
     <appender name="fileInfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
         <encoder>
             <pattern>
                 %d - %msg%n
@@ -16,10 +21,13 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>D:/java/sell/log/info-%d.log</fileNamePattern>
+            <fileNamePattern>D:/java/sell-spring/log/info-%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
     <appender name="fileErrLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
         <encoder>
             <pattern>
                 %d - %msg%n
@@ -28,7 +36,7 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>D:/java/sell/log/error-%d.log</fileNamePattern>
+            <fileNamePattern>D:/java/sell-spring/log/error-%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
     <root level="info">

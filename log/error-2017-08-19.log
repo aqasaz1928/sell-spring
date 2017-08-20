@@ -1,0 +1,7 @@
+2017-08-19 15:38:24,825 - error has happend: Test Error
+2017-08-19 18:19:17,247 - Unknown column 'productcat0_.creat_time' in 'field list'
+2017-08-19 18:21:00,853 - Unknown column 'productcat0_.creat_time' in 'field list'
+2017-08-19 18:21:00,894 - Unknown column 'productcat0_.creat_time' in 'field list'
+2017-08-19 18:22:21,842 - Unknown column 'productcat0_.creat_teime' in 'field list'
+2017-08-19 18:22:21,874 - Unknown column 'productcat0_.creat_teime' in 'field list'
+2017-08-19 18:26:20,329 - Unknown column 'productcat0_.creat_teime' in 'field list'

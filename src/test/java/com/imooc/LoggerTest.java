@@ -6,7 +6,6 @@ import org.junit.runner.RunWith;
 
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import sun.security.krb5.internal.LoginOptions;
 
 /**
  * Created by CZ on 2017/8/18.
@@ -20,6 +19,8 @@ public class LoggerTest {
     public void test1() {
         String name = "jike";
         String password = "12445";
+        String errMsg = "Test Error";
         log.info("error... name {}, password: {}", name, password);
+        log.error("error has happend: {}",errMsg);
     }
 }
