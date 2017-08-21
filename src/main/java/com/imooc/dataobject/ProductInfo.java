@@ -2,7 +2,6 @@ package com.imooc.dataobject;
 
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
-import scala.util.parsing.combinator.testing.Str;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
