@@ -489,3 +489,44 @@ Error starting ApplicationContext. To display the auto-configuration report re-r
 2017-08-21 19:32:02,541 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2017-08-21 19:32:02,541 - FrameworkServlet 'dispatcherServlet': initialization started
 2017-08-21 19:32:02,568 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-08-21 19:35:40,676 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 4976 (D:\java\sell\target\classes started by 李金香 in D:\java\sell)
+2017-08-21 19:35:40,678 - No active profile set, falling back to default profiles: default
+2017-08-21 19:35:40,726 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aefe5e5: startup date [Mon Aug 21 19:35:40 CST 2017]; root of context hierarchy
+2017-08-21 19:35:40,928 - HV000001: Hibernate Validator 5.3.5.Final
+2017-08-21 19:35:43,000 - Tomcat initialized with port(s): 8080 (http)
+2017-08-21 19:35:43,007 - Starting service [Tomcat]
+2017-08-21 19:35:43,009 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-08-21 19:35:43,082 - Initializing Spring embedded WebApplicationContext
+2017-08-21 19:35:43,082 - Root WebApplicationContext: initialization completed in 2357 ms
+2017-08-21 19:35:43,251 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-21 19:35:43,255 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-21 19:35:43,255 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-21 19:35:43,255 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-21 19:35:43,255 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-21 19:35:43,881 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-08-21 19:35:43,889 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-08-21 19:35:43,936 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-08-21 19:35:43,937 - HHH000206: hibernate.properties not found
+2017-08-21 19:35:43,937 - HHH000021: Bytecode provider name : javassist
+2017-08-21 19:35:43,966 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-21 19:35:44,032 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-21 19:35:44,404 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-08-21 19:35:44,794 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aefe5e5: startup date [Mon Aug 21 19:35:40 CST 2017]; root of context hierarchy
+2017-08-21 19:35:44,837 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-08-21 19:35:44,840 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-21 19:35:44,840 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-21 19:35:44,860 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-21 19:35:44,860 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-21 19:35:44,889 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-21 19:35:45,050 - Registering beans for JMX exposure on startup
+2017-08-21 19:35:45,065 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-08-21 19:35:45,072 - Starting ProtocolHandler ["http-nio-8080"]
+2017-08-21 19:35:45,083 - Using a shared selector for servlet write/read
+2017-08-21 19:35:45,099 - Tomcat started on port(s): 8080 (http)
+2017-08-21 19:35:45,102 - Started SellApplication in 4.832 seconds (JVM running for 5.291)
+2017-08-21 19:35:50,199 - A cookie header was received [1499746243,1499824953,1499997679; Idea-10cb269a=ff61daa7-9589-43b8-894b-538283fffc08] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-08-21 19:35:50,204 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-21 19:35:50,204 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-21 19:35:50,219 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
