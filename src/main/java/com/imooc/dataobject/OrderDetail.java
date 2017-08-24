@@ -21,7 +21,7 @@ public class OrderDetail {
     private String productName;       //  商品名称
     private String productIcon;          //  商品标签
     //商品价格 单位分
-    private BigDecimal producPrice;
+    private BigDecimal productPrice;
     // 商品购买数量
     private Integer productQuantity;
 
