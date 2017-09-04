@@ -1,5 +1,6 @@
 package com.imooc.service;
 
+import com.imooc.dataobject.OrderDetail;
 import com.imooc.dataobject.ProductInfo;
 import com.imooc.dto.CartDTO;
 import org.springframework.data.domain.Page;
@@ -23,9 +24,12 @@ public interface ProductService {
 
     // 加库存
     void increaseStock(List<CartDTO> cartList);
+    void increaseStock(List<OrderDetail> orderDetailList, int flag);
+
 
 
     // 减库存
     void decreaseStock(List<CartDTO> cartList);
+    void decreaseStock(List<OrderDetail> orderDetailList, int flag);
 
 }

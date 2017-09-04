@@ -12,10 +12,10 @@ public enum ProductionStatusEnum {
     OffSale(1, "商品下架")
     ;
 
-    private Integer status;
+    private Integer code;
     private String message;
-    ProductionStatusEnum(Integer status, String message) {
+    ProductionStatusEnum(Integer code, String message) {
         this.message = message;
-        this.status = status;
+        this.code = code;
     }
 }

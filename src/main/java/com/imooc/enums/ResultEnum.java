@@ -8,7 +8,13 @@ import lombok.Getter;
 @Getter
 public enum ResultEnum {
     PRODUCT_NOT_EXIST(10, "商品不存在"),
-    PRODUCT_STOCK_ERR(11, "商品库存不够")
+    PRODUCT_STOCK_ERR(11, "商品库存不够"),
+    ORDER_NOT_EXIST(12, "订单不存在"),
+    DETAIL_LIST_NOT_EXIST(13, "订单详情不存在"),
+    ORDER_STATUS_ERR(14, "订单状态错误"),
+    ORDER_UPDATE_FAIL(15, "订单更新失败"),
+    ORDER_DETAIL_EMPTY(16, "订单中没有商品"),
+    ORDER_QUANTITY_MINUS(17,"商品数量不能为负")
     ;
 
     private Integer code;
