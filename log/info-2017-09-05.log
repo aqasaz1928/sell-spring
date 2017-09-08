@@ -1,0 +1,79 @@
+2017-09-05 19:14:06,583 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 2604 (D:\java\sell\target\classes started by 李金香 in D:\java\sell)
+2017-09-05 19:14:06,622 - No active profile set, falling back to default profiles: default
+2017-09-05 19:14:06,805 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b1473ab: startup date [Tue Sep 05 19:14:06 CST 2017]; root of context hierarchy
+2017-09-05 19:14:07,523 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-05 19:14:11,974 - Tomcat initialized with port(s): 8080 (http)
+2017-09-05 19:14:11,986 - Starting service [Tomcat]
+2017-09-05 19:14:11,987 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-05 19:14:12,227 - Initializing Spring embedded WebApplicationContext
+2017-09-05 19:14:12,227 - Root WebApplicationContext: initialization completed in 5422 ms
+2017-09-05 19:14:12,368 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-05 19:14:12,371 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-05 19:14:12,372 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-05 19:14:12,372 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-05 19:14:12,372 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-05 19:14:13,234 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-05 19:14:13,259 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-05 19:14:13,425 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-05 19:14:13,426 - HHH000206: hibernate.properties not found
+2017-09-05 19:14:13,427 - HHH000021: Bytecode provider name : javassist
+2017-09-05 19:14:13,525 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-05 19:14:13,689 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-05 19:14:14,648 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-05 19:14:15,448 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b1473ab: startup date [Tue Sep 05 19:14:06 CST 2017]; root of context hierarchy
+2017-09-05 19:14:15,499 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-05 19:14:15,501 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-05 19:14:15,502 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-05 19:14:15,522 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:14:15,522 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:14:15,549 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:14:15,886 - Registering beans for JMX exposure on startup
+2017-09-05 19:14:15,898 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-05 19:14:15,909 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-05 19:14:15,918 - Using a shared selector for servlet write/read
+2017-09-05 19:14:15,963 - Tomcat started on port(s): 8080 (http)
+2017-09-05 19:14:15,996 - Started SellApplication in 12.624 seconds (JVM running for 15.37)
+2017-09-05 19:18:21,366 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-05 19:18:21,372 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-05 19:18:21,609 - FrameworkServlet 'dispatcherServlet': initialization completed in 237 ms
+2017-09-05 19:18:21,968 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-05 19:22:40,630 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 11736 (D:\java\sell\target\classes started by 李金香 in D:\java\sell)
+2017-09-05 19:22:40,645 - No active profile set, falling back to default profiles: default
+2017-09-05 19:22:40,732 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b1473ab: startup date [Tue Sep 05 19:22:40 CST 2017]; root of context hierarchy
+2017-09-05 19:22:41,359 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-05 19:22:43,221 - Tomcat initialized with port(s): 8080 (http)
+2017-09-05 19:22:43,237 - Starting service [Tomcat]
+2017-09-05 19:22:43,238 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-05 19:22:43,333 - Initializing Spring embedded WebApplicationContext
+2017-09-05 19:22:43,333 - Root WebApplicationContext: initialization completed in 2601 ms
+2017-09-05 19:22:43,448 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-05 19:22:43,451 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-05 19:22:43,452 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-05 19:22:43,452 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-05 19:22:43,452 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-05 19:22:44,183 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-05 19:22:44,260 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-05 19:22:46,291 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-05 19:22:46,292 - HHH000206: hibernate.properties not found
+2017-09-05 19:22:46,293 - HHH000021: Bytecode provider name : javassist
+2017-09-05 19:22:46,437 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-05 19:22:47,671 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-05 19:22:48,098 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-05 19:22:48,579 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b1473ab: startup date [Tue Sep 05 19:22:40 CST 2017]; root of context hierarchy
+2017-09-05 19:22:48,623 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-05 19:22:48,625 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-05 19:22:48,626 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-05 19:22:48,627 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-05 19:22:48,649 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:22:48,649 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:22:48,675 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-05 19:22:48,878 - Registering beans for JMX exposure on startup
+2017-09-05 19:22:48,890 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-05 19:22:48,898 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-05 19:22:48,909 - Using a shared selector for servlet write/read
+2017-09-05 19:22:48,937 - Tomcat started on port(s): 8080 (http)
+2017-09-05 19:22:48,940 - Started SellApplication in 9.179 seconds (JVM running for 10.047)

@@ -3,7 +3,6 @@ package com.imooc.service.impl;
 import com.imooc.dataobject.OrderDetail;
 import com.imooc.dataobject.ProductInfo;
 import com.imooc.dto.CartDTO;
-import com.imooc.dto.OrderDTO;
 import com.imooc.enums.ProductionStatusEnum;
 import com.imooc.enums.ResultEnum;
 import com.imooc.exceptions.SellException;
@@ -17,7 +16,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 @Service
@@ -50,7 +48,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     @Transactional
     public void increaseStock(List<CartDTO> cartList) {
-        for (CartDTO cartDTO: cartList){
+        for (CartDTO cartDTO : cartList) {
             ProductInfo productInfo = repo.findOne(cartDTO.getProductId());
             if (productInfo == null) {
                 log.error("[增加库存] 未找到对应商品 CartDTO={}", cartDTO);
