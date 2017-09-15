@@ -1,0 +1,544 @@
+2017-09-15 09:33:38,930 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 4680 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:33:38,933 - No active profile set, falling back to default profiles: default
+2017-09-15 09:33:39,054 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:33:39 CST 2017]; root of context hierarchy
+2017-09-15 09:33:39,328 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:33:41,754 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatEmbeddedServletContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:33:41,762 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:35:23,040 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 11292 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:35:23,048 - No active profile set, falling back to default profiles: default
+2017-09-15 09:35:23,150 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:35:23 CST 2017]; root of context hierarchy
+2017-09-15 09:35:23,523 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:35:25,536 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatEmbeddedServletContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:35:25,542 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:00,411 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 5172 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:40:00,431 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:00,555 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:40:00 CST 2017]; root of context hierarchy
+2017-09-15 09:40:01,020 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:40:02,885 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatEmbeddedServletContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:02,892 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:54,154 - Starting LoggerTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:54,155 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:54,199 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@492691d7: startup date [Fri Sep 15 09:40:54 CST 2017]; root of context hierarchy
+2017-09-15 09:40:54,748 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:40:56,395 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:56,408 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:56,473 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.repository.OrderDetailRepoTest], using SpringBootContextLoader
+2017-09-15 09:40:56,473 - Could not detect default resource locations for test class [com.imooc.repository.OrderDetailRepoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:40:56,473 - Could not detect default configuration classes for test class [com.imooc.repository.OrderDetailRepoTest]: OrderDetailRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:40:56,475 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.repository.OrderDetailRepoTest
+2017-09-15 09:40:56,478 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:40:56,480 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@288cdaab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@23b3aa8c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@99407c2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c796cc1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@226eba67, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1cb7936c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35342d2f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@128c502c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45667d98, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65eabaab, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7123be6c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1de9d54]
+2017-09-15 09:40:56,582 - Starting OrderDetailRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:56,582 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:56,584 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@11d4dbd6: startup date [Fri Sep 15 09:40:56 CST 2017]; root of context hierarchy
+2017-09-15 09:40:57,312 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:57,315 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:57,392 - Starting OrderDetailRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:57,392 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:57,395 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3d4e405e: startup date [Fri Sep 15 09:40:57 CST 2017]; root of context hierarchy
+2017-09-15 09:40:58,072 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:58,077 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:58,109 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.repository.OrderMasterRepoTest], using SpringBootContextLoader
+2017-09-15 09:40:58,110 - Could not detect default resource locations for test class [com.imooc.repository.OrderMasterRepoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:40:58,111 - Could not detect default configuration classes for test class [com.imooc.repository.OrderMasterRepoTest]: OrderMasterRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:40:58,114 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.repository.OrderMasterRepoTest
+2017-09-15 09:40:58,118 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:40:58,121 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fb53256, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d6d1d42, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@27329d2a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7978e022, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f894ad9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5afbd567, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6993c8df, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57545c3f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@326e0b8e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@36baa049, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41184371, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@34585ac9]
+2017-09-15 09:40:58,400 - Starting OrderMasterRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:58,401 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:58,409 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@655f69da: startup date [Fri Sep 15 09:40:58 CST 2017]; root of context hierarchy
+2017-09-15 09:40:59,213 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:59,216 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:59,282 - Starting OrderMasterRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:59,283 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:59,285 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3b009e7b: startup date [Fri Sep 15 09:40:59 CST 2017]; root of context hierarchy
+2017-09-15 09:40:59,819 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:40:59,823 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:40:59,830 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.repository.ProductCategoryRepoTest], using SpringBootContextLoader
+2017-09-15 09:40:59,830 - Could not detect default resource locations for test class [com.imooc.repository.ProductCategoryRepoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:40:59,831 - Could not detect default configuration classes for test class [com.imooc.repository.ProductCategoryRepoTest]: ProductCategoryRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:40:59,833 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.repository.ProductCategoryRepoTest
+2017-09-15 09:40:59,835 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:40:59,838 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13213f26, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4e4162bc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c319d52, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72fbf94d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6839203b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d28fb02, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6db328f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@402f8592, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61b65d54, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@b2c4a8b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7f2c57fe, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@43935e9c]
+2017-09-15 09:40:59,919 - Starting ProductCategoryRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:40:59,919 - No active profile set, falling back to default profiles: default
+2017-09-15 09:40:59,922 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@395f52ed: startup date [Fri Sep 15 09:40:59 CST 2017]; root of context hierarchy
+2017-09-15 09:41:00,388 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:00,390 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:00,813 - Starting ProductCategoryRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:00,813 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:00,816 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3af236d0: startup date [Fri Sep 15 09:41:00 CST 2017]; root of context hierarchy
+2017-09-15 09:41:01,138 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:01,140 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:01,205 - Starting ProductCategoryRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:01,205 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:01,207 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@690df641: startup date [Fri Sep 15 09:41:01 CST 2017]; root of context hierarchy
+2017-09-15 09:41:01,549 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:01,553 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:01,559 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.repository.ProductInfoRepoTest], using SpringBootContextLoader
+2017-09-15 09:41:01,560 - Could not detect default resource locations for test class [com.imooc.repository.ProductInfoRepoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:41:01,560 - Could not detect default configuration classes for test class [com.imooc.repository.ProductInfoRepoTest]: ProductInfoRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:41:01,561 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.repository.ProductInfoRepoTest
+2017-09-15 09:41:01,565 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:41:01,568 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5fe5c68b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ffb0d10, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3982206a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e9fb485, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4f3fec43, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38dbeb39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10f20d38, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@538aa83f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@63e70bf9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@402a69f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@419f0ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d47b06]
+2017-09-15 09:41:02,022 - Starting ProductInfoRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:02,023 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:02,025 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6b091a92: startup date [Fri Sep 15 09:41:02 CST 2017]; root of context hierarchy
+2017-09-15 09:41:02,319 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:02,322 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:02,375 - Starting ProductInfoRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:02,376 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:02,378 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b4619a3: startup date [Fri Sep 15 09:41:02 CST 2017]; root of context hierarchy
+2017-09-15 09:41:02,738 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:02,740 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:02,790 - Starting ProductInfoRepoTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:02,790 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:02,792 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@29ea5e0: startup date [Fri Sep 15 09:41:02 CST 2017]; root of context hierarchy
+2017-09-15 09:41:03,162 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:03,164 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:03,174 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.SellApplicationTests], using SpringBootContextLoader
+2017-09-15 09:41:03,175 - Could not detect default resource locations for test class [com.imooc.SellApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:41:03,175 - Could not detect default configuration classes for test class [com.imooc.SellApplicationTests]: SellApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:41:03,178 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.SellApplicationTests
+2017-09-15 09:41:03,180 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:41:03,189 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7378c4a4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6694fb1b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61ce238e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49ea13b6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c02b3cb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3d8fd373, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2dcd451f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@342394b3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5dd6f517, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e01b195, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59a3eaf7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@718d6b7c]
+2017-09-15 09:41:03,270 - Starting SellApplicationTests on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:03,270 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:03,272 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7acb5200: startup date [Fri Sep 15 09:41:03 CST 2017]; root of context hierarchy
+2017-09-15 09:41:03,778 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:03,796 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:03,832 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.service.impl.CategoryServiceImplTest], using SpringBootContextLoader
+2017-09-15 09:41:03,834 - Could not detect default resource locations for test class [com.imooc.service.impl.CategoryServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:41:03,835 - Could not detect default configuration classes for test class [com.imooc.service.impl.CategoryServiceImplTest]: CategoryServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:41:04,012 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.service.impl.CategoryServiceImplTest
+2017-09-15 09:41:04,014 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:41:04,020 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@293ecff6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70eb94d7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34d72f06, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e43b342, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21dd9203, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@dbcf7c3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e466d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63243c8f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ea4e762, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@444c0f9a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36931450, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74919649]
+2017-09-15 09:41:04,123 - Starting CategoryServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:04,123 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:04,125 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@39159b14: startup date [Fri Sep 15 09:41:04 CST 2017]; root of context hierarchy
+2017-09-15 09:41:04,464 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:04,466 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:04,555 - Starting CategoryServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:04,556 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:04,558 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@58835bba: startup date [Fri Sep 15 09:41:04 CST 2017]; root of context hierarchy
+2017-09-15 09:41:05,025 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:05,027 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:05,081 - Starting CategoryServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:05,082 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:05,084 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4bc4ec43: startup date [Fri Sep 15 09:41:05 CST 2017]; root of context hierarchy
+2017-09-15 09:41:05,441 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:05,442 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:05,529 - Starting CategoryServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:05,529 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:05,533 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@255b84a9: startup date [Fri Sep 15 09:41:05 CST 2017]; root of context hierarchy
+2017-09-15 09:41:05,985 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:05,988 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:05,994 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.service.impl.OrderServiceImplTest], using SpringBootContextLoader
+2017-09-15 09:41:05,994 - Could not detect default resource locations for test class [com.imooc.service.impl.OrderServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:41:05,994 - Could not detect default configuration classes for test class [com.imooc.service.impl.OrderServiceImplTest]: OrderServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:41:05,997 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.service.impl.OrderServiceImplTest
+2017-09-15 09:41:05,998 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:41:06,001 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2040732f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@373fb666, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7894a250, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1bd53c5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@38affd02, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72e9f0f7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2fb24ad8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1db7a4ae, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ab70df7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6764201e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5a3d52a0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7a0f1f9d]
+2017-09-15 09:41:06,072 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:06,073 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:06,082 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4a2f1ae3: startup date [Fri Sep 15 09:41:06 CST 2017]; root of context hierarchy
+2017-09-15 09:41:06,572 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:06,574 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:07,015 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:07,015 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:07,021 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62c02089: startup date [Fri Sep 15 09:41:07 CST 2017]; root of context hierarchy
+2017-09-15 09:41:07,438 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:07,441 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:07,491 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:07,491 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:07,493 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4587675c: startup date [Fri Sep 15 09:41:07 CST 2017]; root of context hierarchy
+2017-09-15 09:41:07,885 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:07,886 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:07,936 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:07,937 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:07,938 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7def08fc: startup date [Fri Sep 15 09:41:07 CST 2017]; root of context hierarchy
+2017-09-15 09:41:08,262 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:08,264 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:08,312 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:08,312 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:08,314 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7405e77f: startup date [Fri Sep 15 09:41:08 CST 2017]; root of context hierarchy
+2017-09-15 09:41:08,612 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:08,613 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:08,656 - Starting OrderServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:08,656 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:08,658 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@509e4bc4: startup date [Fri Sep 15 09:41:08 CST 2017]; root of context hierarchy
+2017-09-15 09:41:08,894 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:08,898 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:08,903 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.service.impl.ProductServiceImplTest], using SpringBootContextLoader
+2017-09-15 09:41:08,903 - Could not detect default resource locations for test class [com.imooc.service.impl.ProductServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-15 09:41:08,903 - Could not detect default configuration classes for test class [com.imooc.service.impl.ProductServiceImplTest]: ProductServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-09-15 09:41:08,906 - Found @SpringBootConfiguration com.imooc.SellApplication for test class com.imooc.service.impl.ProductServiceImplTest
+2017-09-15 09:41:08,911 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-15 09:41:08,914 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@143abb21, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5813046e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6b1e72a4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5da61ee2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c0455c4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c74025e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4467c026, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@29db9746, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17cf5dcc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6bd5cb99, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@11c95035, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64dd94ed]
+2017-09-15 09:41:09,034 - Starting ProductServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:09,034 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:09,036 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f0dae44: startup date [Fri Sep 15 09:41:09 CST 2017]; root of context hierarchy
+2017-09-15 09:41:09,459 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:09,462 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:09,584 - Starting ProductServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:09,584 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:09,586 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ee39a1c: startup date [Fri Sep 15 09:41:09 CST 2017]; root of context hierarchy
+2017-09-15 09:41:09,826 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:09,828 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:09,880 - Starting ProductServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:09,880 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:09,881 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f953e51: startup date [Fri Sep 15 09:41:09 CST 2017]; root of context hierarchy
+2017-09-15 09:41:10,249 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:10,250 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:41:10,389 - Starting ProductServiceImplTest on DESKTOP-PU1H1F5 with PID 4860 (started by ¿ÓΩœ„ in D:\java\sell)
+2017-09-15 09:41:10,389 - No active profile set, falling back to default profiles: default
+2017-09-15 09:41:10,390 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@364bbba9: startup date [Fri Sep 15 09:41:10 CST 2017]; root of context hierarchy
+2017-09-15 09:41:10,705 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.imooc.controller.WxTestController [Xlint:invalidAbsoluteTypeName]
+2017-09-15 09:41:10,707 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 09:43:54,836 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 11916 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:43:54,841 - No active profile set, falling back to default profiles: default
+2017-09-15 09:43:54,971 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:43:54 CST 2017]; root of context hierarchy
+2017-09-15 09:43:55,303 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:43:57,575 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 09:43:57,600 - Starting service [Tomcat]
+2017-09-15 09:43:57,602 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 09:43:57,740 - Initializing Spring embedded WebApplicationContext
+2017-09-15 09:43:57,740 - Root WebApplicationContext: initialization completed in 2771 ms
+2017-09-15 09:43:57,922 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 09:43:57,928 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 09:43:57,929 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 09:43:57,929 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 09:43:57,930 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 09:43:58,840 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:43:58,856 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 09:43:58,959 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 09:43:58,964 - HHH000206: hibernate.properties not found
+2017-09-15 09:43:58,974 - HHH000021: Bytecode provider name : javassist
+2017-09-15 09:43:59,083 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 09:43:59,296 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 09:43:59,977 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:45:57,532 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 11344 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:45:57,535 - No active profile set, falling back to default profiles: default
+2017-09-15 09:45:57,627 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:45:57 CST 2017]; root of context hierarchy
+2017-09-15 09:45:57,982 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:45:59,563 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 09:45:59,577 - Starting service [Tomcat]
+2017-09-15 09:45:59,578 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 09:45:59,681 - Initializing Spring embedded WebApplicationContext
+2017-09-15 09:45:59,681 - Root WebApplicationContext: initialization completed in 2055 ms
+2017-09-15 09:45:59,805 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 09:45:59,810 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 09:45:59,811 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 09:45:59,811 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 09:45:59,811 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 09:46:00,296 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:46:00,305 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 09:46:00,355 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 09:46:00,356 - HHH000206: hibernate.properties not found
+2017-09-15 09:46:00,357 - HHH000021: Bytecode provider name : javassist
+2017-09-15 09:46:00,391 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 09:46:00,482 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 09:46:00,971 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:46:05,104 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:45:57 CST 2017]; root of context hierarchy
+2017-09-15 09:46:05,481 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-15 09:46:05,484 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-15 09:46:05,486 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-15 09:46:05,489 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-15 09:46:05,494 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-15 09:46:05,498 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public void com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-15 09:46:05,502 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-15 09:46:05,520 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-15 09:46:05,521 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-15 09:46:05,756 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:46:05,756 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:46:06,051 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:46:08,067 - Registering beans for JMX exposure on startup
+2017-09-15 09:46:08,189 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:46:08,255 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:46:08,280 - Using a shared selector for servlet write/read
+2017-09-15 09:46:08,331 - Tomcat started on port(s): 8080 (http)
+2017-09-15 09:46:08,368 - Started SellApplication in 11.318 seconds (JVM running for 11.815)
+2017-09-15 09:46:20,823 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-15 09:46:20,824 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-15 09:46:20,931 - FrameworkServlet 'dispatcherServlet': initialization completed in 107 ms
+2017-09-15 09:46:49,578 - [auth function]
+2017-09-15 09:47:39,142 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 12136 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:47:39,147 - No active profile set, falling back to default profiles: default
+2017-09-15 09:47:39,222 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:47:39 CST 2017]; root of context hierarchy
+2017-09-15 09:47:39,603 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:47:41,189 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 09:47:41,198 - Starting service [Tomcat]
+2017-09-15 09:47:41,199 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 09:47:41,287 - Initializing Spring embedded WebApplicationContext
+2017-09-15 09:47:41,287 - Root WebApplicationContext: initialization completed in 2065 ms
+2017-09-15 09:47:41,417 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 09:47:41,424 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 09:47:41,426 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 09:47:41,426 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 09:47:41,426 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 09:47:42,022 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:47:42,031 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 09:47:42,080 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 09:47:42,081 - HHH000206: hibernate.properties not found
+2017-09-15 09:47:42,082 - HHH000021: Bytecode provider name : javassist
+2017-09-15 09:47:42,116 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 09:47:42,210 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 09:47:42,668 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:47:43,520 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:47:39 CST 2017]; root of context hierarchy
+2017-09-15 09:47:43,574 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-15 09:47:43,575 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-15 09:47:43,575 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-15 09:47:43,575 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-15 09:47:43,576 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-15 09:47:43,576 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public void com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-15 09:47:43,577 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-15 09:47:43,578 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-15 09:47:43,578 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-15 09:47:43,605 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:47:43,605 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:47:43,640 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:47:43,966 - Registering beans for JMX exposure on startup
+2017-09-15 09:47:43,978 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:47:43,986 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:47:43,997 - Using a shared selector for servlet write/read
+2017-09-15 09:47:44,011 - Tomcat started on port(s): 8080 (http)
+2017-09-15 09:47:44,016 - Started SellApplication in 5.329 seconds (JVM running for 5.845)
+2017-09-15 09:48:11,480 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-15 09:48:11,480 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-15 09:48:11,500 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-09-15 09:48:11,526 - [auth function]
+2017-09-15 09:50:47,349 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 5360 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 09:50:47,354 - No active profile set, falling back to default profiles: default
+2017-09-15 09:50:47,456 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:50:47 CST 2017]; root of context hierarchy
+2017-09-15 09:50:47,678 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 09:50:49,387 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 09:50:49,397 - Starting service [Tomcat]
+2017-09-15 09:50:49,397 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 09:50:49,479 - Initializing Spring embedded WebApplicationContext
+2017-09-15 09:50:49,479 - Root WebApplicationContext: initialization completed in 2023 ms
+2017-09-15 09:50:49,622 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 09:50:49,627 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 09:50:49,627 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 09:50:49,628 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 09:50:49,628 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 09:50:50,180 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:50:50,191 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 09:50:50,245 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 09:50:50,246 - HHH000206: hibernate.properties not found
+2017-09-15 09:50:50,248 - HHH000021: Bytecode provider name : javassist
+2017-09-15 09:50:50,282 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 09:50:50,373 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 09:50:50,826 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 09:50:51,611 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 09:50:47 CST 2017]; root of context hierarchy
+2017-09-15 09:50:51,669 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-15 09:50:51,670 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-15 09:50:51,670 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-15 09:50:51,671 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-15 09:50:51,671 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-15 09:50:51,671 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public void com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-15 09:50:51,672 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-15 09:50:51,673 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-15 09:50:51,673 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-15 09:50:51,699 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:50:51,699 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:50:51,732 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 09:50:52,046 - Registering beans for JMX exposure on startup
+2017-09-15 09:50:52,059 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:50:52,067 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-15 09:50:52,077 - Using a shared selector for servlet write/read
+2017-09-15 09:50:52,091 - Tomcat started on port(s): 8080 (http)
+2017-09-15 09:50:52,095 - Started SellApplication in 5.479 seconds (JVM running for 6.07)
+2017-09-15 09:51:35,394 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-15 09:51:35,394 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-15 09:51:35,412 - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2017-09-15 09:51:35,437 - [auth function]
+2017-09-15 10:01:35,499 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 12192 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 10:01:35,512 - No active profile set, falling back to default profiles: default
+2017-09-15 10:01:35,603 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 10:01:35 CST 2017]; root of context hierarchy
+2017-09-15 10:01:36,148 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 10:01:43,440 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 10:01:43,454 - Starting service [Tomcat]
+2017-09-15 10:01:43,455 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 10:01:43,647 - Initializing Spring embedded WebApplicationContext
+2017-09-15 10:01:43,647 - Root WebApplicationContext: initialization completed in 8044 ms
+2017-09-15 10:01:43,770 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 10:01:43,774 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 10:01:43,775 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 10:01:43,775 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 10:01:43,775 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 10:01:44,382 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:01:44,392 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 10:01:44,500 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 10:01:44,501 - HHH000206: hibernate.properties not found
+2017-09-15 10:01:44,502 - HHH000021: Bytecode provider name : javassist
+2017-09-15 10:01:44,557 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 10:01:44,724 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 10:01:45,249 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:01:45,524 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechatController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'me.chanjar.weixin.mp.api.WxMpService' available: expected single matching bean but found 2: wxMpService2,wxMpService1
+2017-09-15 10:01:45,524 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:01:45,552 - Stopping service [Tomcat]
+2017-09-15 10:01:45,591 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-15 10:02:54,596 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 7720 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 10:02:54,599 - No active profile set, falling back to default profiles: default
+2017-09-15 10:02:54,734 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 10:02:54 CST 2017]; root of context hierarchy
+2017-09-15 10:02:54,977 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 10:02:57,128 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 10:02:57,136 - Starting service [Tomcat]
+2017-09-15 10:02:57,137 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 10:02:57,225 - Initializing Spring embedded WebApplicationContext
+2017-09-15 10:02:57,225 - Root WebApplicationContext: initialization completed in 2491 ms
+2017-09-15 10:02:57,391 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 10:02:57,395 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 10:02:57,395 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 10:02:57,395 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 10:02:57,396 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 10:02:57,917 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:02:57,937 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 10:02:58,019 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 10:02:58,021 - HHH000206: hibernate.properties not found
+2017-09-15 10:02:58,022 - HHH000021: Bytecode provider name : javassist
+2017-09-15 10:02:58,067 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 10:02:58,340 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 10:02:58,808 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:02:59,798 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 10:02:54 CST 2017]; root of context hierarchy
+2017-09-15 10:02:59,853 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-15 10:02:59,854 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-15 10:02:59,854 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-15 10:02:59,854 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-15 10:02:59,854 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-15 10:02:59,855 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public void com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-15 10:02:59,855 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-15 10:02:59,857 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-15 10:02:59,857 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-15 10:02:59,881 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:02:59,882 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:02:59,914 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:03:00,214 - Registering beans for JMX exposure on startup
+2017-09-15 10:03:00,227 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-15 10:03:00,235 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-15 10:03:00,246 - Using a shared selector for servlet write/read
+2017-09-15 10:03:00,265 - Tomcat started on port(s): 8080 (http)
+2017-09-15 10:03:00,270 - Started SellApplication in 6.197 seconds (JVM running for 6.682)
+2017-09-15 10:03:08,405 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-15 10:03:08,406 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-15 10:03:08,424 - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2017-09-15 10:03:08,450 - [auth function]
+2017-09-15 10:03:32,688 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 6876 (D:\java\sell\target\classes started by ÊùéÈáëÈ¶ô in D:\java\sell)
+2017-09-15 10:03:32,691 - No active profile set, falling back to default profiles: default
+2017-09-15 10:03:32,774 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 10:03:32 CST 2017]; root of context hierarchy
+2017-09-15 10:03:33,056 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-15 10:03:35,064 - Tomcat initialized with port(s): 8080 (http)
+2017-09-15 10:03:35,077 - Starting service [Tomcat]
+2017-09-15 10:03:35,078 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-15 10:03:35,157 - Initializing Spring embedded WebApplicationContext
+2017-09-15 10:03:35,158 - Root WebApplicationContext: initialization completed in 2383 ms
+2017-09-15 10:03:35,277 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-15 10:03:35,281 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-15 10:03:35,281 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-15 10:03:35,281 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-15 10:03:35,281 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-15 10:03:35,736 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:03:35,746 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-15 10:03:35,795 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-15 10:03:35,796 - HHH000206: hibernate.properties not found
+2017-09-15 10:03:35,797 - HHH000021: Bytecode provider name : javassist
+2017-09-15 10:03:35,831 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-15 10:03:35,921 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-15 10:03:36,347 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-15 10:03:37,094 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c372fe6: startup date [Fri Sep 15 10:03:32 CST 2017]; root of context hierarchy
+2017-09-15 10:03:37,169 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-15 10:03:37,169 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-15 10:03:37,170 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-15 10:03:37,170 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-15 10:03:37,171 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-15 10:03:37,172 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public void com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-15 10:03:37,172 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-15 10:03:37,174 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-15 10:03:37,175 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-15 10:03:37,206 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:03:37,206 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:03:37,256 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-15 10:03:37,607 - Registering beans for JMX exposure on startup
+2017-09-15 10:03:37,620 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-15 10:03:37,627 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-15 10:03:37,636 - Using a shared selector for servlet write/read
+2017-09-15 10:03:37,650 - Tomcat started on port(s): 8080 (http)
+2017-09-15 10:03:37,654 - Started SellApplication in 5.431 seconds (JVM running for 5.908)
+2017-09-15 10:03:48,957 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-15 10:03:48,957 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-15 10:03:48,976 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-09-15 10:03:49,000 - [auth function]

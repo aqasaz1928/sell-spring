@@ -1,0 +1,6 @@
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http://yousa.nat100.top/sell/weixin/auth&response_type=code&scope=snsapi_base&state=STATE#wechat_redirec
+
+ https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4b349a9cba0df9c2&secret=fd01380d6f7425553a063b03b6d69897&code=CODE&grant_type=authorization_code
+
+
+ https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http://yousa.nat100.top/sell/weixin/auth&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirec
