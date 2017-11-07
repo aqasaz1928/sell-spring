@@ -1,0 +1,102 @@
+2017-09-21 09:44:04,424 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 2960 (D:\java\sell\target\classes started by 李金香 in D:\java\sell)
+2017-09-21 09:44:04,430 - No active profile set, falling back to default profiles: default
+2017-09-21 09:44:04,612 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e92efc3: startup date [Thu Sep 21 09:44:04 CST 2017]; root of context hierarchy
+2017-09-21 09:44:05,216 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-21 09:44:10,060 - Tomcat initialized with port(s): 8080 (http)
+2017-09-21 09:44:10,098 - Starting service [Tomcat]
+2017-09-21 09:44:10,128 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-21 09:44:11,785 - Initializing Spring embedded WebApplicationContext
+2017-09-21 09:44:11,786 - Root WebApplicationContext: initialization completed in 7174 ms
+2017-09-21 09:44:12,092 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-21 09:44:12,095 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-21 09:44:12,096 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-21 09:44:12,096 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-21 09:44:12,096 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-21 09:44:14,967 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-21 09:44:15,128 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-21 09:44:15,741 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-21 09:44:15,742 - HHH000206: hibernate.properties not found
+2017-09-21 09:44:15,743 - HHH000021: Bytecode provider name : javassist
+2017-09-21 09:44:16,055 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-21 09:44:16,504 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-21 09:44:18,245 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-21 09:44:23,517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e92efc3: startup date [Thu Sep 21 09:44:04 CST 2017]; root of context hierarchy
+2017-09-21 09:44:23,675 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-21 09:44:23,676 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-21 09:44:23,676 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-21 09:44:23,676 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-21 09:44:23,677 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-21 09:44:23,678 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.imooc.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-21 09:44:23,678 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-21 09:44:23,679 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-21 09:44:23,681 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-21 09:44:23,682 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-21 09:44:23,708 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 09:44:23,708 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 09:44:23,793 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 09:44:24,239 - Registering beans for JMX exposure on startup
+2017-09-21 09:44:24,304 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-21 09:44:24,385 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-21 09:44:24,608 - Using a shared selector for servlet write/read
+2017-09-21 09:44:24,645 - Tomcat started on port(s): 8080 (http)
+2017-09-21 09:44:24,702 - Started SellApplication in 21.179 seconds (JVM running for 30.121)
+2017-09-21 09:44:48,254 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-21 09:44:48,254 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-21 09:44:48,269 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-09-21 09:45:35,078 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-21 09:46:14,169 - [微信网页授权] 获取 code rediresctUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http%3A%2F%2Fyousa.nat100.top%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=aasdas#wechat_redirect
+2017-09-21 10:01:25,942 - [微信网页授权] 获取 code rediresctUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http%3A%2F%2Fyousa.nat100.top%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=aasdas#wechat_redirect
+2017-09-21 10:10:36,241 - Starting SellApplication on DESKTOP-PU1H1F5 with PID 1580 (D:\java\sell\target\classes started by 李金香 in D:\java\sell)
+2017-09-21 10:10:36,243 - No active profile set, falling back to default profiles: default
+2017-09-21 10:10:36,299 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e92efc3: startup date [Thu Sep 21 10:10:36 CST 2017]; root of context hierarchy
+2017-09-21 10:10:36,600 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-21 10:10:39,170 - Tomcat initialized with port(s): 8080 (http)
+2017-09-21 10:10:39,184 - Starting service [Tomcat]
+2017-09-21 10:10:39,186 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-21 10:10:39,300 - Initializing Spring embedded WebApplicationContext
+2017-09-21 10:10:39,300 - Root WebApplicationContext: initialization completed in 3001 ms
+2017-09-21 10:10:39,405 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-21 10:10:39,408 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-21 10:10:39,408 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-21 10:10:39,408 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-21 10:10:39,408 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-21 10:10:39,995 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-21 10:10:40,007 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-21 10:10:40,106 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-21 10:10:40,108 - HHH000206: hibernate.properties not found
+2017-09-21 10:10:40,109 - HHH000021: Bytecode provider name : javassist
+2017-09-21 10:10:40,161 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-21 10:10:40,290 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-21 10:10:40,730 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-21 10:10:41,604 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e92efc3: startup date [Thu Sep 21 10:10:36 CST 2017]; root of context hierarchy
+2017-09-21 10:10:41,648 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2017-09-21 10:10:41,649 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-21 10:10:41,649 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-21 10:10:41,649 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.vo.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-09-21 10:10:41,650 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.vo.ResultVO<java.util.List<com.imooc.vo.ProductVO>> com.imooc.controller.BuyerProductController.list()
+2017-09-21 10:10:41,651 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.imooc.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-21 10:10:41,651 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.imooc.controller.WechatController.authorize(java.lang.String)
+2017-09-21 10:10:41,651 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.imooc.controller.WeixinController.auth(java.lang.String)
+2017-09-21 10:10:41,652 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-21 10:10:41,653 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-21 10:10:41,671 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 10:10:41,671 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 10:10:41,696 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-21 10:10:41,865 - Registering beans for JMX exposure on startup
+2017-09-21 10:10:41,880 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-09-21 10:10:41,886 - Starting ProtocolHandler ["http-nio-8080"]
+2017-09-21 10:10:41,901 - Using a shared selector for servlet write/read
+2017-09-21 10:10:41,916 - Tomcat started on port(s): 8080 (http)
+2017-09-21 10:10:41,920 - Started SellApplication in 6.483 seconds (JVM running for 7.718)
+2017-09-21 10:12:00,219 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-21 10:12:00,219 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-21 10:12:00,234 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-09-21 10:12:00,264 - [微信网页授权] 获取 code rediresctUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http%3A%2F%2Fyousa.nat100.top%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=aasdas#wechat_redirect
+2017-09-21 10:16:56,035 - [微信网页授权] 获取 code rediresctUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b349a9cba0df9c2&redirect_uri=http%3A%2F%2Fyousa.nat100.top%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=aasdas#wechat_redirect
+2017-09-21 10:16:59,006 - [微信授权回调] 获得了code 和 state， code: 001pdkzk2dkAOH0lw8Ck2WUtzk2pdkzw, returnUrl: aasdas
+2017-09-21 10:16:59,648 - [微信授权回调] 通过code获取 accessToken 并获得openId: oKK_-1YTYP5AQP8M8wwQ_L18IXSk
+2017-09-21 10:17:52,453 - [微信授权回调] 获得了code 和 state， code: 001pdkzk2dkAOH0lw8Ck2WUtzk2pdkzw, returnUrl: aasdas
