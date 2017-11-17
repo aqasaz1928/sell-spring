@@ -18,7 +18,8 @@ public enum ResultEnum {
     ORDER_QUANTITY_MINUS(17,"商品数量不能为负"),
     ORDER_PAY_STATUS_ERR(18,"订单支付状态不正确"),
     EMPTY_CART(19, "购物车为空"),
-    WECHAT_MP_ERROR(20, "微信公众账号调用出错")
+    WECHAT_MP_ERROR(20, "微信公众账号调用出错"),
+    HTTP_REDIRECT_ERROR(21, "进行http重定向时发生错误")
     ;
 
     private Integer code;
